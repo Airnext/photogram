@@ -1,0 +1,89 @@
+body {
+	padding-top: 70px;
+}
+.navbar-default{
+	background:RoyalBlue;
+	border-radius:0px;
+	border:0px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
+	color:White;
+}
+.navbar-nav > li > a{
+	color:White;
+}
+.left{
+	min-height:400px;
+}
+.chat_left{
+	min-height:475px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: 450px !important;
+}
+.upload_area, .newest_images, .stats, .popular_images, .latest_comments{
+	border:1px solid RoyalBlue;
+	border-radius:5px;
+	margin-bottom:15px;
+	padding-bottom:8px;
+}
+.upload_area h4, .newest_images h4, .stats h4, .popular_images h4, .latest_comments h4{
+	border-bottom:1px solid RoyalBlue;
+	padding-bottom:5px;
+}
+.upload_area h5{
+	border-top:1px solid RoyalBlue;
+	padding-top:5px;
+}
+input[type="text"],input[type="email"],input[type="file"],input[type="password"],textarea{
+	border:1px solid RoyalBlue !important;
+}
+footer{
+	color:White;
+	border-top:1px solid RoyalBlue;
+	background:RoyalBlue;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.badge{
+	background-color:#ff5555;
+}
+.chat_room{
+	height: 350px;
+	background-color: whitesmoke;
+	overflow: scroll;
+}
+.userMessage, .myMessage, .serverMessage{
+	padding: 10px;
+  	margin-bottom: 10px;
+  	border: 1px solid transparent;
+  	max-width:80%;
+  	float:left;
+  	display:block;
+  	clear:both;
+}
+.userMessage{
+	background-color: LightPink;
+	border-radius: 25px 50px;
+	border-top-left-radius: 0px;
+}
+.myMessage{
+	background-color: LightBlue;
+	float: right;
+	border-radius: 50px 25px;
+	border-top-right-radius: 0px;
+}
+.serverMessage{
+	background-color: LightGreen;
+	border-radius: 25px 50px;
+	border-top-left-radius: 0px;
+}
+
+@media screen and (max-width: 767px){
+	.popular_images img{
+		height: 150px !important;
+	}
+}
